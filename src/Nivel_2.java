@@ -1,6 +1,6 @@
 public class Nivel_2 {
 
-    // ---------- Ejercicio 3: El Enredo de Groot (invertir cola con una pila) ----------
+    /* ---------- Ejercicio 3: El Enredo de Groot (invertir cola con una pila) ----------*/
 
     public static void invertirCola(Nivel_1.Cola cola) {
         Pila temp = new Pila();
@@ -23,7 +23,11 @@ public class Nivel_2 {
         System.out.println("Después: " + coordenadas);
     }
 
-    // ---------- Ejercicio 4: El Arsenal de Drax (búsqueda segura) ----------
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    /* ---------- Ejercicio 4: El Arsenal de Drax (búsqueda segura) ----------*/
     public static String buscarYExtraer(Pila armas, String objetivo) {
         Pila auxiliar = new Pila();
         String resultado = null;   // null = todavía no encontrada
@@ -47,12 +51,12 @@ public class Nivel_2 {
         Pila armas = new Pila();
         armas.apilar("Hacha");
         armas.apilar("Pistola");
-        armas.apilar("Dagas de Vibranium");
+        armas.apilar("Dagas ");
         armas.apilar("Espada");
         armas.apilar("Escudo");
         System.out.println("Arsenal inicial: " + armas);
 
-        String r = buscarYExtraer(armas, "Dagas de Vibranium");
+        String r = buscarYExtraer(armas, "Dagas ");
         System.out.println(r != null ? "Arma encontrada: " + r : "Arma no encontrada");
         System.out.println("Arsenal (resto en orden): " + armas);
 

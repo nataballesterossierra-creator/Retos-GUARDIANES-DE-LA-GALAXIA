@@ -1,10 +1,6 @@
 public class Nivel_1 {
 
-
-    // =====================================================================
-    // CLASES DE APOYO
-    // =====================================================================
-    // /** Ejercicio 1: Pila con capacidad máxima. */
+     /** Ejercicio 1: Pila con capacidad máxima. */
 
 
     public static class PilaLimitada extends Pila {
@@ -113,6 +109,8 @@ public class Nivel_1 {
             return sb.append(" <- entrada").toString();
         }
     }
+ /*-----------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------------------------------------------------------------*/
 
 
     /* Ejercicio 2: El Walkman de Star-Lord*/
@@ -140,12 +138,12 @@ public class Nivel_1 {
         System.out.println("Estado final: " + playlist);
     }
 
-    // =====================================================================
-    // EJECUCIÓN DEL NIVEL
-    // =====================================================================
+    /* ------
+        EJECUCIÓN DEL NIVEL
+    --------------------------------------*/
 
     public static void ejecutar() {
-        System.out.println("\n########## NIVEL 1: RECLUTA NOVA ##########");
+        System.out.println("\n     NIVEL 1: RECLUTA NOVA    ");
         ejercicio1();
         ejercicio2();
     }

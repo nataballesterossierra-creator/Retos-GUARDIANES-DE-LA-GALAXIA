@@ -1,7 +1,4 @@
 public class Nivel_3 {
-    // =====================================================================
-    // CLASES DE APOYO
-    // =====================================================================
 
     /** Ejercicio 5: Cola implementada SOLO con dos Pilas. */
     public static class ColaNebula {
@@ -28,7 +25,7 @@ public class Nivel_3 {
         }
     }
 
-   // ---------- Ejercicio 5: El Cerebro Cibernético (cola con 2 pilas) ----------
+   /* ---------- Ejercicio 5: El Cerebro Cibernético (cola con 2 pilas) ----------*/
     public static void ejercicio5() {
         System.out.println("\n--- Ejercicio 5: Cerebro Cibernético de Nebula (Cola con 2 Pilas) ---");
         ColaNebula cola = new ColaNebula();
@@ -44,7 +41,7 @@ public class Nivel_3 {
         }
     }
 
-    // ---------- Ejercicio 6: La Bóveda del Coleccionista (ordenar pila) ----------
+    /* ---------- Ejercicio 6: La Bóveda del Coleccionista (ordenar pila) ----------*/
     public static void ordenarPila(Pila gemas) {
         Pila auxiliar = new Pila();
 
@@ -76,6 +73,10 @@ public class Nivel_3 {
         ordenarPila(gemas);
         System.out.println("Después: " + gemas + "   (mayor arriba)");
     }
+
+/*_________________________________________________________________________________________________________________________________________*/
+/*_________________________________________________________________________________________________________________________________________*/
+
 
 
     /** Ejercicio 7: Sector de escudos de la Milano. */
@@ -128,9 +129,9 @@ public class Nivel_3 {
         roundRobin(sectores, 10);
         System.out.println("\nTodos los escudos al 100%.");
     }
-    // =====================================================================
-    // EJECUCIÓN DEL NIVEL
-    // =====================================================================
+    /* ---------------
+         EJECUCIÓN DEL NIVEL
+     -------------------------------------*/
 
     public static void ejecutar() {
         System.out.println("\n########## NIVEL 3: HÉROE DE LA GALAXIA ##########");
